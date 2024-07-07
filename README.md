@@ -1,6 +1,6 @@
-# Hive OS Farm ID Retriever
+# Hive OS and mmpOS Farm ID Retriever
 
-This Python script retrieves the Farm ID from Hive OS using the Hive OS API.
+This Python project retrieves the Farm IDs from Hive OS and mmpOS using their respective APIs.
 
 ## Prerequisites
 
@@ -12,8 +12,8 @@ This Python script retrieves the Farm ID from Hive OS using the Hive OS API.
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/GuesswhoLW/showHiveFarmID.py.git
-    cd hive-os-farm-id-retriever
+    git clone https://github.com/yourusername/farm-id-retriever.git
+    cd farm-id-retriever
     ```
 
 2. Create a virtual environment and activate it (optional but recommended):
@@ -27,13 +27,20 @@ This Python script retrieves the Farm ID from Hive OS using the Hive OS API.
     pip install -r requirements.txt
     ```
 
-4. Create a `.env` file in the root directory of the project and add your Hive OS API key:
+4. Create a `.env` file in the root directory of the project and add your Hive OS API key and mmPOS API key:
     ```
     HIVE_OS_API_KEY=your_hive_os_api_key
+    MMPOS_API_KEY=your_mmpos_api_key
     ```
 
 ## Usage
 
-Run the script:
+Run the scripts:
 ```sh
 python showHiveFarmID.py
+```
+
+## Support
+  If you find this small project helpful and would like to support my work and future projects, feel free to donate a cup of coffee to my Spectre wallet:
+  ```sh
+  spectre:qr7nl6z8nc8gmagarmzrnaw90xu2xxzzn8qtg2wql967njendf5eqeqdnmhuc
