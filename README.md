@@ -12,7 +12,7 @@ This Python project retrieves the Farm IDs from Hive OS and mmpOS using their re
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/farm-id-retriever.git
+    git clone https://github.com/GuesswhoLW/farm-id-retriever.git
     cd farm-id-retriever
     ```
 
